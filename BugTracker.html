@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bug Tracket Report</title>
+    </head>
+    <body style="background-color: aquamarine;">
+        <div style="background-color: white;margin: 20px;">
+            <div style="background-color: #f8bf12f1; margin-top:20px; margin-bottom: 20px;padding-bottom: 20px;">
+                <h1 style="margin-bottom: 0px;margin-left: 60px;">Bug Trackers</h1>
+                <p style="margin-top: 0px;margin-left: 60px;">Report all bugs!</p>
+            </div>
+            <div style="margin-left: 20px;">
+                <label for="bugTitle">Bug Title*</label>
+                <input type="text" name="title" id="bugTitle"  style="margin-bottom: 20px;margin-left: 200px;width: 500px;"/></br>
+                <label for="des">Issue Description*</label>
+                <input type="text" name="des" id="des" style="margin-bottom: 20px;margin-left: 150px;width: 500px;" /></br>
+                <label for="sys">Operating System*</label>
+                <select id="sys" style="margin-bottom: 20px;margin-left: 145px;width: 500px;">
+                    <option value="">-select-</option>
+                    <option value="win">windows</option>
+                    <option value="mac">Mac</option>
+                </select><br>
+                <label for="browser" style="margin-right: 200px;">Browser*</label>
+                <input type="radio" name="Internet" id="browser" />Internet Explorer<br>
+                <input type="radio" name="chrome" id="browser" style="margin-left: 270px;"/>Chrome<br>
+                <input type="radio" name="Firefox" id="browser" style="margin-left: 270px;"/>Firefox<br>
+                <input type="radio" name="safari" id="browser" style="margin-left: 270px;"/>Safari<br>
+                <input type="radio" name="opera" id="browser" style="margin-left: 270px;" />Opera<br>
+                <input type="radio" name="Other" id="browser" style="margin-left: 270px;" />Other<br>
+                <input type="text" name="Other" id="other" style="margin-left: 270px;" /><br>
+                <label for="Ass">Assigned To*</label>
+                <select id="Ass" style="margin-bottom: 20px;margin-left: 178px;width: 500px; margin-top: 20px;">
+                    <option value="">-select-</option>
+                    <option value="kim">Kim</option>
+                    <option value="tae">tae</option>
+                </select><br>
+                <label for="priority">Priority*</label>
+                <select id="priority" style="margin-bottom: 20px;margin-left: 207px;width: 500px; margin-top: 20px;">
+                    <option value="">-select-</option>
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                </select><br>
+                <label for="ss">screenshot</label>
+                <input file="file" name="ss" id="ss" style="margin-bottom: 20px;margin-left: 195px;width: 500px;"/><br>
+                <label for="status">Status*</label>
+                <select id="status" style="margin-bottom: 20px;margin-left: 212px;width: 500px; margin-top: 20px;">
+                    <option value="">-select-</option>
+                    <option value="pending">pending</option>
+                    <option value="completed">completed</option>
+                </select><br>
+                <button style="background-color: green; border-radius: 35px;margin: 20px 0px 20px 400px  ">Submit</button>
+
+            </div>
+        </div>
+        
+    </body>
+</html>

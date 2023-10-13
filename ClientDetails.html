@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Client Details Submission Form</title>
+    </head>
+    <body>
+        <div style="background-color: rgb(112, 112, 114); color: white; text-align: center;">
+            <h1 style="margin-bottom: 0px;">Client Details</h1>
+            <p style="margin-top: 0px; font-size: 11px;">Enter the details of all incoming clients</p>
+        </div>
+        <div style="margin: 20px;">
+            <label for="cName" style="margin-bottom: 0px; width: 50%;">Client Name*</label>
+            <input type="text" name="cName" id="cName" style="margin-bottom: 20px;"/><br>
+            <label for="company" style="margin-bottom: 0px; width:50%">Company*</label>
+            <input type="text" name="company" id="company" style="margin-bottom: 20px;" /><br>
+            <label for="title" style="margin-bottom: 0px; width:50%">Title*</label>
+            <input type="text" name="title" id="title" style="margin-bottom: 20px;" /><br>
+            <label type="Dep" style="margin-bottom: 0px; width: 50%;">Department*</label>
+            <select id="Dep" style="margin-bottom: 20px;">
+                <option type="">-select-</option>
+                <option type="it">IT</option>
+            </select><br>
+            <label for="Contact">Preferred contact method*</label>
+            <input type="radio" name="contact" id="Contact"  style="margin-bottom: 20px;" />Email
+            <input type="radio" name="contact" id="Contact"  /> Phone<br>
+            <label for="add" style="margin-top: 20px;">Company address*</label>
+            <input type="text" name="saddress" id="saddress" /><br>
+            <label for="saddress" style="margin-left: 125px;">Street Address</label><br>
+            <input type="text" name="line2" id="line2" style="margin-left: 125px;" /><br>
+            <label for="line2" style="margin-left: 125px;">Address Line 2</label><br>
+            <input type="text" name="city" id="city" style="margin-left: 125px;" />
+            <input type="text" name="state" id="state"  /><br>
+            <label for="city" style="margin-left: 125px;">City</label>
+            <label for="state" style="margin-left: 140px;">State</label><br>
+            <input type="text" name="zip" id="zip" style="margin-left: 125px;" />
+            <select style="width: 170px; ">
+                <option type="">-select-</option>
+                <option type="india">India</option>
+                <option type="usa">USA</option>
+            </select><br>
+            <label for="zip" style="margin-left: 125px;">Postal/Zip code</label>
+            <label for="country" style="margin-left: 80px;">country</label><br>
+            <label for="website">Company website*</label>
+            <input type="text" name="website" id="website" style="margin-top: 20px;" /><br>
+            <label for="logo"> Company logo</label>
+            <input type="file" name="logo" id="logo" style="margin-top: 20px;" /><br>
+            <label for="WHours">Working Hours*</label>
+            <input type="text" name="whours" id="WHours" style="margin-top: 20px;" /><br>
+            <label for="Wdays">Working Days*</label>
+            <input type="text" name="wdays" id="Wdays" style="margin-top: 20px;" /><br>
+            <label for="bill">Billing Cycle*</label>
+            <input type="date" name="bill" id="bill"  style="margin-top: 20px;"/><br>
+            <label for="info">Additional Info*</label>
+            <input type="text" name="info" id="info" style="margin-top: 20px;" /><br>
+            <input type="button" value="Submit" name="btn" id="btn" style="background-color: green;"/>
+        </div>
+    </body>
+</html>
